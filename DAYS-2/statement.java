@@ -18,7 +18,7 @@ public class Latihan1 {
                 System.out.println("Selain cuaca diatas saya akan pergi ke restoran dengan memakai payung!");
             }
         } catch (Exception e) {
-            // TODO: handle exception
+            System.out.println("Inputan (cuaca) harus berupa teks!");
         }
     }
 }
