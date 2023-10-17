@@ -1,6 +1,5 @@
-package Fungsi.DAYS_9;
 import java.util.Scanner;
-public class Fungsi {
+public class FungsiRekursif {
     public static void main(String[] args) {
 
         // Latihan fungsi rekursif
