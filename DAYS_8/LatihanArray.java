@@ -1,8 +1,5 @@
-package arrays.DAYS_8;
-
-
 import java.util.Scanner;
-public class Latihan {
+public class LatihanArray {
 
     public static void main(String[] args) {
         
