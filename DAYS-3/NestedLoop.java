@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public interface NestedIf {
+public interface NestedLoop {
     public static void main(String[] args) {
         String title, namaD, namaB, jeniskelaming;
         int umur;
