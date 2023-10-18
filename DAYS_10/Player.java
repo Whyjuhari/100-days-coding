@@ -1,6 +1,7 @@
 public class Player{
 
     // attribut atau properti
+    // public agar bisa digunakan di class lain
     public String nama;
     public int speed;
     public int healthPoint;
