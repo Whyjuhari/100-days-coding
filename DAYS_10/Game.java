@@ -10,18 +10,18 @@ public class Game {
             // mengisi dan mengambil atribut player
 
             System.out.print("\nNama Player!\t\t : ");
-            String nama = inputan.nextLine();
-            Scriptkiddie.setName(nama);
+            Scriptkiddie.nama = inputan.nextLine();
+            Scriptkiddie.setName(Scriptkiddie.nama);
             Scriptkiddie.getName();
 
             System.out.print("Speed Player!\t\t : ");
-            int speed = inputan.nextInt();
-            Scriptkiddie.setSpeed(speed);
+            Scriptkiddie.speed = inputan.nextInt();
+            Scriptkiddie.setSpeed(Scriptkiddie.speed);
             Scriptkiddie.getSpeed();
 
             System.out.print("Healthpoint Player!\t : ");
-            int healthPoint = inputan.nextInt();
-            Scriptkiddie.setHealtpoint(healthPoint);
+            Scriptkiddie.healthPoint = inputan.nextInt();
+            Scriptkiddie.setHealtpoint(Scriptkiddie.healthPoint);
             Scriptkiddie.getHealtpoint();
             
             System.out.println("\n");
