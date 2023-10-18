@@ -8,7 +8,6 @@ public class Game {
             Player Scriptkiddie = new Player();  
 
             // mengisi dan mengambil atribut player
-
             System.out.print("\nNama Player!\t\t : ");
             Scriptkiddie.nama = inputan.nextLine();
             Scriptkiddie.setName(Scriptkiddie.nama);
@@ -26,12 +25,14 @@ public class Game {
             
             System.out.println("\n");
 
-            // memanggil method player
+            // memanggil method belari player
             Scriptkiddie.berlari();
 
             if (Scriptkiddie.isDead()) {
                 System.out.println("BY.. GAME OVER!!");
             }
+        } catch (Exception e) {
+            System.out.println("Inputan harus sesuai dengan tipedata!!");
         }
         
        
