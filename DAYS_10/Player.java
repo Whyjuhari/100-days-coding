@@ -1,9 +1,9 @@
 public class Player{
 
     // attribut atau properti
-    String nama;
-    int speed;
-    int healthPoint;
+    public String nama;
+    public int speed;
+    public int healthPoint;
 
     // method atau perilaku
     void berlari(){
