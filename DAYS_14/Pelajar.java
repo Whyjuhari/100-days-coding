@@ -1,8 +1,8 @@
 package DAYS_14;
-
-
 import java.util.Scanner;
 public class Pelajar {
+    
+    Scanner pilihanUser = new Scanner(System.in);
  
     // Identitas 
     private String nama, alamat, provinsi;
@@ -14,9 +14,6 @@ public class Pelajar {
     private int pilihan1, pilihan2, pilihan3, pilihan4, pilihan5;
     private int total;
 
-
-    Scanner pilihanUser = new Scanner(System.in);
-
     // konstruktor untuk class pelajar
     Pelajar(String nama, String alamat, String provinsi, int kode_pos, Long nohp) {
         this.nama = nama;
@@ -26,8 +23,12 @@ public class Pelajar {
         this.nohp = nohp;
     }
 
+    // Method menghitung total program.
     public void setHargaProgram() {
 
+        System.out.format("\nHello, %s \nList program pembelajaran yang tersedia \n[1 untuk ambil / 0 untuk tidak]",nama);
+
+        System.out.println("\n---------------------------------------------------");
         System.out.print("\nAlgoritma dan struktur data (Rp. 500000)\t : ");
         pilihan1 = pilihanUser.nextInt();
         System.out.print("Database System (Rp. 1000000)\t\t\t : ");
@@ -38,8 +39,10 @@ public class Pelajar {
         pilihan4 = pilihanUser.nextInt();
         System.out.print("Android (Rp. 2500000)\t\t\t\t : ");
         pilihan5 = pilihanUser.nextInt();
+        System.out.println("\n---------------------------------------------------");
 
 
+        // kondisi if untuk setiap jenis program pembelajaran
         if (pilihan1 == 1) {
             algoritmaP = 500000;
             total = algoritmaP;
@@ -61,6 +64,7 @@ public class Pelajar {
         total = algoritmaP + dSystem + cNetwork + oop + android;
     }
     
+    // Method menampilkan detail seorang pelajar. Serta total yang harus dibayar
     public void detailPendaftaran() {
         System.out.println("\nNama lengkap\t : " + nama);
         System.out.println("Alamat\t\t : " + alamat);
@@ -71,8 +75,5 @@ public class Pelajar {
         System.out.println("\nTotal biaya kursus : " + total);
         System.out.println("Terimah kasih telah bergabung dengan Course-Net");
     }
-
-
-
     
 }
