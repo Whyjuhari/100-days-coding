@@ -1,12 +1,9 @@
 package DAYS_14;
-
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        
-        
-        try (Scanner inputanUser = new Scanner(System.in)) {
 
+        try (Scanner inputanUser = new Scanner(System.in)) {
             // Mingisi data user
             System.out.println("\t=====================");
             System.out.println("\tWELCOME TO COURSE-NET");
@@ -29,7 +26,7 @@ public class Main {
             masihPemula.detailPendaftaran();
 
         } catch (Exception e) {
-            System.out.print("Inputan harus sesuai tipedata!");
+            System.out.println("Inputan harus sesuai tipedata!");
 
         }
 
