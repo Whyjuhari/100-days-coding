@@ -1,0 +1,9 @@
+Ibu ucup setiap harinya diberikan uang oleh ayah ucup sebesar 50.000 untuk kebutuhan sehari”,
+
+Ibu ucup ingin menabung uang untuk membelikan ucup sepeda seharga 5.000.000 
+setiap harinya ibu ucup memiliki kebutuhan 20.000 untuk membeli bahan sayuran 
+dan setiap minggu ibu ucup harus membayar listrik sebesar 50ribu.
+Tetapi ayah ucup setiap bulannya memberikan uang kepada ibu ucup sebesar 500.000
+
+Nah berapa minggu ibu ucup harus mengumpulkan uang >= 5.000.000 
+dan tidak lebih dari 5.100.000 untuk membelikan ucup sepeda
