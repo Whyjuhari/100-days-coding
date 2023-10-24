@@ -1,0 +1,10 @@
+Pada suatu hari fyan berkeinginan membeli sebuah HP redmi note 9
+Dengan harga 2.400.000
+
+Nah fyan berjualan kartu Byu untuk mengumpulkan uang demi membeli hp itu. setiap harinya kartu yang terjual adalah :
+Dihari pertama berjualan terjual 0, hari kedua terjual 1, hari ketiga terjual 2, hari ke empat terjual 4, hari ke lima 5, dan terus berulang ke hari berikutnya seperti itu
+
+Nah jika harga 1 kartu byu adalah 50ribu dan modal fyan adalah 20ribu…
+Tetapi fyan memiliki tanggungan untuk membayar wifi sebesar 300.000 perbulannya
+
+Berapa tahun fyan bisa mengumpulkan uang sebanyak 2.400.000 tersebut
