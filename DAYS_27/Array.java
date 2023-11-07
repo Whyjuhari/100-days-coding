@@ -1,6 +1,7 @@
+package DAYS_27;
 import java.util.ArrayList;
 
-public class SearchingExample {
+public class Array {
     public static void main(String[] args) {
         ArrayList<String> daftarNama = new ArrayList<>();
         daftarNama.add("Juhari");
