@@ -19,7 +19,7 @@ public class Main {
         boolean stop = false;
 
         while (!stop) {
-            clearScreen();
+            bersihkanTerminal();
             System.out.print("Masukkan NIM\t : ");
             String nim = inputan.nextLine();
 
@@ -45,7 +45,7 @@ public class Main {
         angkatan21.tampilkanData(x);
     }
 
-    public static void clearScreen() {
+    public static void bersihkanTerminal() {
         try {
             ProcessBuilder prosesBuild = new ProcessBuilder("clear");
             prosesBuild.inheritIO();
