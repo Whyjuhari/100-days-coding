@@ -14,7 +14,7 @@ public class Main {
 
     public static void gambarTabel(String[][] mahasiswa) {
         
-        // Menggambar baris header
+        // Menggambar baris
         for (int i = 0; i < mahasiswa[0].length; i++) {
             System.out.print("+------------------");
         }
