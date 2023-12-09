@@ -1,0 +1,8 @@
+package DAYS_62;
+
+public class App {
+    public static void main(String[] args) {
+        
+        new Form();
+    }
+}
