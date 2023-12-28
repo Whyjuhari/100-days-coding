@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class DragPanel extends JPanel {
-    
+    // memanggil image
     ImageIcon image = new ImageIcon("GUI/src/DAYS_81/icon2.png");
 
     final int WIDTH = image.getIconWidth(); 
